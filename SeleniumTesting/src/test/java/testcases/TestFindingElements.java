@@ -1,5 +1,6 @@
 package testcases;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -32,8 +33,8 @@ public class TestFindingElements {
 		
 		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
 			
-				.withTimeout(30, TimeUnit.SECONDS)
-			       .pollingEvery(5, TimeUnit.SECONDS)
+				.withTimeout(Duration.ofSeconds(10))
+			       .pollingEvery(Duration.ofSeconds(2))
 			       .ignoring(NoSuchElementException.class);
 				
 				
