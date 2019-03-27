@@ -30,7 +30,7 @@ public class TestDropdowns {
 
 		select.selectByValue("hi");
 		
-		
+		//handling Dropdown and count of values in dropdown and print 
 		List<WebElement> values = driver.findElements(By.tagName("option"));
 		System.out.println("Total values are : " +values.size());
 		System.out.println(values.get(7).getText());
@@ -39,8 +39,19 @@ public class TestDropdowns {
 		{
 			System.out.println(values.get(i).getText());
 		}
+
 		
-		driver.close();
+		WebElement block = driver.findElement(By.xpath("//*[@id=\"www-wikipedia-org\"]/div[6]/div[3]"));
+		
+		
+		List<WebElement> links=block.findElements(By.tagName("a"));
+		System.out.println("Total links in this page : "+links.size());
+		
+		for(WebElement link:links)
+		{
+			System.out.println(link.getText()+"--URL IS--"+link.getAttribute("href"));
+		}
+		//driver.close();
 	}
 
 }
