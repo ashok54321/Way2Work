@@ -39,6 +39,8 @@ public class TestDropdowns {
 		{
 			System.out.println(values.get(i).getText());
 		}
+		
+		driver.close();
 	}
 
 }

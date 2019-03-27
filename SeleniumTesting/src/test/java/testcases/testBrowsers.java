@@ -29,8 +29,8 @@ public class testBrowsers {
 		String Title = driver.getTitle();
 		System.out.println(Title);
 		System.out.println(Title.length());
-		driver.close();
-		// driver.quit();
+		//driver.close();
+		 driver.quit();
 	}
 
 }
