@@ -20,10 +20,11 @@ public class Assignment4 {
 	{
 		for(height=200; height<=600; height++)
 		{
-			
+			driver.manage().window().setSize(dimension);
+	
 		}
 	}
-		driver.manage().window().setSize(dimension);
+		
 	}
 
 }
