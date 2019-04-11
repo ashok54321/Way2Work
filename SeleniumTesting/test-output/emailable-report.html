@@ -9,15 +9,29 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Functional Suite</th></tr>
-<tr><td><a href="#t0">Login Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td>bvt</td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Validate Title Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td>bvt</td><td></td></tr>
-<tr><td><a href="#t2">Dependency Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">77</td><td>bvt</td><td></td></tr>
-<tr><th>Total</th><th class="num">1</th><th class="num">0</th><th class="num">0</th><th class="num">77</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Login Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">70</td><td></td><td>bvt</td></tr>
+<tr class="stripe"><td><a href="#t1">Validate Title Test</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">16</td><td></td><td>bvt</td></tr>
+<tr><td><a href="#t2">Dependency Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">24</td><td></td><td>bvt</td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num attn">1</th><th class="num attn">2</th><th class="num">110</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Functional Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4" class="invisible"/></tr></tbody>
-<tbody id="t1"><tr><th colspan="4" class="invisible"/></tr></tbody>
-<tbody id="t2"><tr><th colspan="4">Dependency Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestNGLearning.TestCase3</td><td><a href="#m0">FourthTest</a></td><td rowspan="1">1554988501441</td><td rowspan="1">15</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Functional Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestNGLearning.TestCases1</td><td><a href="#m0">doLogin</a></td><td rowspan="1">1554999374170</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m1">doUserReg</a></td><td rowspan="1">1554999374154</td><td rowspan="1">8</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Validate Title Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNGLearning.TestCase2</td><td><a href="#m2">validateTitles</a></td><td rowspan="1">1554999374232</td><td rowspan="1">9</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Dependency Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">TestNGLearning.TestCase3</td><td><a href="#m3">doUserReg</a></td><td rowspan="1">1554999374266</td><td rowspan="1">3</td></tr><tr><th colspan="4">Dependency Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">TestNGLearning.TestCase3</td><td><a href="#m4">doLogin</a></td><td rowspan="1">1554999374274</td><td rowspan="1">0</td></tr><tr><th colspan="4">Dependency Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">TestNGLearning.TestCase3</td><td><a href="#m5">ThirdTest</a></td><td rowspan="1">1554999374279</td><td rowspan="1">2</td></tr></tbody>
 </table>
-<h2>Login Test</h2><h2>Validate Title Test</h2><h2>Dependency Test</h2><h3 id="m0">TestNGLearning.TestCase3#FourthTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Login Test</h2><h3 id="m0">TestNGLearning.TestCases1#doLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestNGLearning.TestCases1#doUserReg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Validate Title Test</h2><h3 id="m2">TestNGLearning.TestCase2#validateTitles</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [Yahoo.com] but found [Gmail.com],
+	image not present expected [false] but found [true],
+	this is going to be failed test case,
+	Text box not present expected [false] but found [true]
+	at TestNGLearning.TestCase2.validateTitles(TestCase2.java:37)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Dependency Test</h2><h3 id="m3">TestNGLearning.TestCase3#doUserReg</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: User not registered
+	at TestNGLearning.TestCase3.doUserReg(TestCase3.java:12)
+... Removed 26 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestNGLearning.TestCase3#doLogin</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@5f341870] depends on not successfully finished methods
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestNGLearning.TestCase3#ThirdTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

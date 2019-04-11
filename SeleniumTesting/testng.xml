@@ -3,7 +3,7 @@
 <suite name="Functional Suite">
 	<groups>
 		<run>
-			<include name="bvt"></include>
+			<exclude name="bvt"></exclude>
 		</run>
 		
 	</groups>

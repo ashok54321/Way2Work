@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suite]">
   <test thread-count="5" name="Validate Title Test(failed)">
+    <groups>
+      <run>
+        <exclude name="bvt"/>
+      </run>
+    </groups>
     <classes>
       <class name="TestNGLearning.TestCase2">
         <methods>
@@ -11,11 +16,15 @@
     </classes>
   </test> <!-- Validate Title Test(failed) -->
   <test thread-count="5" name="Dependency Test(failed)">
+    <groups>
+      <run>
+        <exclude name="bvt"/>
+      </run>
+    </groups>
     <classes>
       <class name="TestNGLearning.TestCase3">
         <methods>
           <include name="doUserReg"/>
-          <include name="FourthTest"/>
           <include name="doLogin"/>
         </methods>
       </class> <!-- TestNGLearning.TestCase3 -->
