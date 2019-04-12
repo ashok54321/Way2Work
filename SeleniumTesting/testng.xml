@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Functional Suite">
-	<groups>
+	<listeners>
+		<listener class-name="customListeners.Listeners"></listener>
+	</listeners>
+
+	<!-- <groups>
 		<run>
 			<exclude name="bvt"></exclude>
 		</run>
-		
-	</groups>
+	</groups> -->
+	
 	<test name="Login Test">
 		<classes>
 			<class name="TestNGLearning.TestCases1" />
@@ -22,6 +26,12 @@
 	<test name="Dependency Test">
 		<classes>
 			<class name="TestNGLearning.TestCase3" />
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Failure Test">
+		<classes>
+			<class name="TestNGLearning.TestFailure" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

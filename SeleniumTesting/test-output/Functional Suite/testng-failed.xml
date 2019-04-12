@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="customListeners.Listeners"/>
+  </listeners>
   <test thread-count="5" name="Validate Title Test(failed)">
     <classes>
       <class name="TestNGLearning.TestCase2">
@@ -15,10 +18,18 @@
       <class name="TestNGLearning.TestCase3">
         <methods>
           <include name="doUserReg"/>
-          <include name="FourthTest"/>
           <include name="doLogin"/>
         </methods>
       </class> <!-- TestNGLearning.TestCase3 -->
     </classes>
   </test> <!-- Dependency Test(failed) -->
+  <test thread-count="5" name="Failure Test(failed)">
+    <classes>
+      <class name="TestNGLearning.TestFailure">
+        <methods>
+          <include name="doLogin1"/>
+        </methods>
+      </class> <!-- TestNGLearning.TestFailure -->
+    </classes>
+  </test> <!-- Failure Test(failed) -->
 </suite> <!-- Failed suite [Functional Suite] -->
