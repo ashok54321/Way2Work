@@ -1,65 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="4" failed="3" skipped="1">
+<testng-results skipped="1" failed="3" ignored="0" total="8" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank"><img width=150 height=150 src="C:\Users\Ashok\Downloads\error.jpeg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank"><img width=150 height=150 src="C:\Users\Ashok\Downloads\error.jpeg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank"><img width=150 height=150 src="C:\Users\Ashok\Downloads\error.jpeg"></a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2019-04-12T12:34:05Z" name="Functional Suite" finished-at="2019-04-12T12:34:05Z" duration-ms="410">
+  <suite name="Functional Suite" duration-ms="158" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
     <groups>
       <group name="bvt">
-        <method signature="TestCase3.FourthTest()[pri:4, instance:TestNGLearning.TestCase3@6a370f4]" name="FourthTest" class="TestNGLearning.TestCase3"/>
+        <method signature="TestCase3.FourthTest()[pri:4, instance:TestNGLearning.TestCase3@396f6598]" name="FourthTest" class="TestNGLearning.TestCase3"/>
       </group> <!-- bvt -->
       <group name="functional">
-        <method signature="TestCases1.doLogin()[pri:2, instance:TestNGLearning.TestCases1@87a85e1]" name="doLogin" class="TestNGLearning.TestCases1"/>
-        <method signature="TestCases1.doUserReg()[pri:1, instance:TestNGLearning.TestCases1@87a85e1]" name="doUserReg" class="TestNGLearning.TestCases1"/>
-        <method signature="TestCase3.doUserReg()[pri:1, instance:TestNGLearning.TestCase3@6a370f4]" name="doUserReg" class="TestNGLearning.TestCase3"/>
-        <method signature="TestCase3.ThirdTest()[pri:3, instance:TestNGLearning.TestCase3@6a370f4]" name="ThirdTest" class="TestNGLearning.TestCase3"/>
-        <method signature="TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@6a370f4]" name="doLogin" class="TestNGLearning.TestCase3"/>
+        <method signature="TestCases1.doLogin()[pri:2, instance:TestNGLearning.TestCases1@4973813a]" name="doLogin" class="TestNGLearning.TestCases1"/>
+        <method signature="TestCases1.doUserReg()[pri:1, instance:TestNGLearning.TestCases1@4973813a]" name="doUserReg" class="TestNGLearning.TestCases1"/>
+        <method signature="TestCase3.doUserReg()[pri:1, instance:TestNGLearning.TestCase3@396f6598]" name="doUserReg" class="TestNGLearning.TestCase3"/>
+        <method signature="TestCase3.ThirdTest()[pri:3, instance:TestNGLearning.TestCase3@396f6598]" name="ThirdTest" class="TestNGLearning.TestCase3"/>
+        <method signature="TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@396f6598]" name="doLogin" class="TestNGLearning.TestCase3"/>
       </group> <!-- functional -->
       <group name="smoke">
-        <method signature="TestCase2.validateTitles()[pri:0, instance:TestNGLearning.TestCase2@55b53d44]" name="validateTitles" class="TestNGLearning.TestCase2"/>
-        <method signature="TestCase3.doUserReg()[pri:1, instance:TestNGLearning.TestCase3@6a370f4]" name="doUserReg" class="TestNGLearning.TestCase3"/>
-        <method signature="TestCase3.ThirdTest()[pri:3, instance:TestNGLearning.TestCase3@6a370f4]" name="ThirdTest" class="TestNGLearning.TestCase3"/>
-        <method signature="TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@6a370f4]" name="doLogin" class="TestNGLearning.TestCase3"/>
+        <method signature="TestCase2.validateTitles()[pri:0, instance:TestNGLearning.TestCase2@64729b1e]" name="validateTitles" class="TestNGLearning.TestCase2"/>
+        <method signature="TestCase3.doUserReg()[pri:1, instance:TestNGLearning.TestCase3@396f6598]" name="doUserReg" class="TestNGLearning.TestCase3"/>
+        <method signature="TestCase3.ThirdTest()[pri:3, instance:TestNGLearning.TestCase3@396f6598]" name="ThirdTest" class="TestNGLearning.TestCase3"/>
+        <method signature="TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@396f6598]" name="doLogin" class="TestNGLearning.TestCase3"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2019-04-12T12:34:05Z" name="Login Test" finished-at="2019-04-12T12:34:05Z" duration-ms="116">
+    <test name="Login Test" duration-ms="49" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
       <class name="TestNGLearning.TestCases1">
-        <test-method is-config="true" signature="createDBConn()[pri:0, instance:TestNGLearning.TestCases1@87a85e1]" started-at="2019-04-12T12:34:05Z" name="createDBConn" finished-at="2019-04-12T12:34:05Z" duration-ms="32" status="PASS">
+        <test-method status="PASS" signature="createDBConn()[pri:0, instance:TestNGLearning.TestCases1@4973813a]" name="createDBConn" is-config="true" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createDBConn -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestNGLearning.TestCases1@87a85e1]" started-at="2019-04-12T12:34:05Z" name="LaunchBrowser" finished-at="2019-04-12T12:34:05Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:TestNGLearning.TestCases1@4973813a]" name="LaunchBrowser" is-config="true" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="doUserReg()[pri:1, instance:TestNGLearning.TestCases1@87a85e1]" started-at="2019-04-12T12:34:05Z" name="doUserReg" finished-at="2019-04-12T12:34:05Z" duration-ms="11" status="PASS">
+        <test-method status="PASS" signature="doUserReg()[pri:1, instance:TestNGLearning.TestCases1@4973813a]" name="doUserReg" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserReg -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNGLearning.TestCases1@87a85e1]" started-at="2019-04-12T12:34:05Z" name="CloseBrowser" finished-at="2019-04-12T12:34:05Z" duration-ms="3" status="PASS">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestNGLearning.TestCases1@4973813a]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:TestNGLearning.TestCases1@87a85e1]" started-at="2019-04-12T12:34:05Z" name="LaunchBrowser" finished-at="2019-04-12T12:34:05Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestNGLearning.TestCases1@4973813a]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:TestNGLearning.TestCases1@4973813a]" name="LaunchBrowser" is-config="true" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="doLogin()[pri:2, instance:TestNGLearning.TestCases1@87a85e1]" started-at="2019-04-12T12:34:05Z" name="doLogin" finished-at="2019-04-12T12:34:05Z" duration-ms="3" status="PASS">
+        <test-method status="PASS" signature="doLogin()[pri:2, instance:TestNGLearning.TestCases1@4973813a]" name="doLogin" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNGLearning.TestCases1@87a85e1]" started-at="2019-04-12T12:34:05Z" name="CloseBrowser" finished-at="2019-04-12T12:34:05Z" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-        <test-method is-config="true" signature="closeDBConn()[pri:0, instance:TestNGLearning.TestCases1@87a85e1]" started-at="2019-04-12T12:34:05Z" name="closeDBConn" finished-at="2019-04-12T12:34:05Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="closeDBConn()[pri:0, instance:TestNGLearning.TestCases1@4973813a]" name="closeDBConn" is-config="true" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDBConn -->
       </class> <!-- TestNGLearning.TestCases1 -->
     </test> <!-- Login Test -->
-    <test started-at="2019-04-12T12:34:05Z" name="Validate Title Test" finished-at="2019-04-12T12:34:05Z" duration-ms="24">
+    <test name="Validate Title Test" duration-ms="15" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
       <class name="TestNGLearning.TestCase2">
-        <test-method signature="validateTitles()[pri:0, instance:TestNGLearning.TestCase2@55b53d44]" started-at="2019-04-12T12:34:05Z" name="validateTitles" finished-at="2019-04-12T12:34:05Z" duration-ms="16" status="FAIL">
+        <test-method status="FAIL" signature="validateTitles()[pri:0, instance:TestNGLearning.TestCase2@64729b1e]" name="validateTitles" duration-ms="15" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[The following asserts failed:
@@ -76,10 +103,10 @@ this is going to be failed test case,
 Text box not present expected [false] but found [true]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
 at TestNGLearning.TestCase2.validateTitles(TestCase2.java:37)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -98,66 +125,39 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank"><img width=150 height=150 src="C:\Users\Ashok\Downloads\error.jpeg"></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- validateTitles -->
       </class> <!-- TestNGLearning.TestCase2 -->
     </test> <!-- Validate Title Test -->
-    <test started-at="2019-04-12T12:34:05Z" name="Dependency Test" finished-at="2019-04-12T12:34:05Z" duration-ms="84">
+    <test name="Dependency Test" duration-ms="31" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
       <class name="TestNGLearning.TestCase3">
-        <test-method signature="doUserReg()[pri:1, instance:TestNGLearning.TestCase3@6a370f4]" started-at="2019-04-12T12:34:05Z" name="doUserReg" finished-at="2019-04-12T12:34:05Z" duration-ms="4" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[User not registered]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: User not registered
-at org.testng.Assert.fail(Assert.java:96)
-at TestNGLearning.TestCase3.doUserReg(TestCase3.java:12)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="ThirdTest()[pri:3, instance:TestNGLearning.TestCase3@396f6598]" name="ThirdTest" duration-ms="0" started-at="2019-04-12T17:46:38Z" depends-on-methods="TestNGLearning.TestCase3.doUserReg" finished-at="2019-04-12T17:46:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- doUserReg -->
-        <test-method signature="doLogin()[pri:2, instance:TestNGLearning.TestCase3@6a370f4]" started-at="2019-04-12T12:34:05Z" name="doLogin" finished-at="2019-04-12T12:34:05Z" depends-on-methods="TestNGLearning.TestCase3.doUserReg" duration-ms="0" status="SKIP">
+        </test-method> <!-- ThirdTest -->
+        <test-method status="SKIP" signature="doLogin()[pri:2, instance:TestNGLearning.TestCase3@396f6598]" name="doLogin" duration-ms="0" started-at="2019-04-12T17:46:38Z" depends-on-methods="TestNGLearning.TestCase3.doUserReg" finished-at="2019-04-12T17:46:38Z">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@6a370f4] depends on not successfully finished methods]]>
+              <![CDATA[Method TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@396f6598] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@6a370f4] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TestCase3.doLogin()[pri:2, instance:TestNGLearning.TestCase3@396f6598] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -173,7 +173,7 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
@@ -182,31 +182,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="ThirdTest()[pri:3, instance:TestNGLearning.TestCase3@6a370f4]" started-at="2019-04-12T12:34:05Z" name="ThirdTest" finished-at="2019-04-12T12:34:05Z" depends-on-methods="TestNGLearning.TestCase3.doUserReg" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ThirdTest -->
-        <test-method signature="FourthTest()[pri:4, instance:TestNGLearning.TestCase3@6a370f4]" started-at="2019-04-12T12:34:05Z" name="FourthTest" finished-at="2019-04-12T12:34:05Z" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FourthTest -->
-      </class> <!-- TestNGLearning.TestCase3 -->
-    </test> <!-- Dependency Test -->
-    <test started-at="2019-04-12T12:34:05Z" name="Failure Test" finished-at="2019-04-12T12:34:05Z" duration-ms="25">
-      <class name="TestNGLearning.TestFailure">
-        <test-method signature="doLogin1()[pri:0, instance:TestNGLearning.TestFailure@7671cb68]" started-at="2019-04-12T12:34:05Z" name="doLogin1" finished-at="2019-04-12T12:34:05Z" duration-ms="12" status="FAIL">
+        <test-method status="FAIL" signature="doUserReg()[pri:1, instance:TestNGLearning.TestCase3@396f6598]" name="doUserReg" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Failing the login test]]>
+              <![CDATA[User not registered]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Failing the login test
+              <![CDATA[java.lang.AssertionError: User not registered
 at org.testng.Assert.fail(Assert.java:96)
-at TestNGLearning.TestFailure.doLogin1(TestFailure.java:11)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at TestNGLearning.TestCase3.doUserReg(TestCase3.java:12)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
 at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
 at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
@@ -225,15 +213,89 @@ at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
 at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
 at org.testng.TestNG.runSuites(TestNG.java:1049)
 at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank"><img width=150 height=150 src="C:\Users\Ashok\Downloads\error.jpeg"></a>]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- doLogin1 -->
+        </test-method> <!-- doUserReg -->
+        <test-method status="PASS" signature="FourthTest()[pri:4, instance:TestNGLearning.TestCase3@396f6598]" name="FourthTest" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthTest -->
+      </class> <!-- TestNGLearning.TestCase3 -->
+    </test> <!-- Dependency Test -->
+    <test name="Failure Test" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
+      <class name="TestNGLearning.TestFailure">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestNGLearning.TestFailure@74650e52]" name="setUp" is-config="true" duration-ms="15" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="doLogin()[pri:0, instance:TestNGLearning.TestFailure@74650e52]" name="doLogin" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Failing the login test]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Failing the login test
+at org.testng.Assert.fail(Assert.java:96)
+at TestNGLearning.TestFailure.doLogin(TestFailure.java:11)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="C:\Users\Ashok\Downloads\error.jpeg" target="_blank"><img width=150 height=150 src="C:\Users\Ashok\Downloads\error.jpeg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestNGLearning.TestFailure@74650e52]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-04-12T17:46:38Z" finished-at="2019-04-12T17:46:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- TestNGLearning.TestFailure -->
     </test> <!-- Failure Test -->
   </suite> <!-- Functional Suite -->

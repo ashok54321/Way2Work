@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Functional Suite]">
   <listeners>
     <listener class-name="customListeners.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
   <test thread-count="5" name="Validate Title Test(failed)">
     <classes>
       <class name="TestNGLearning.TestCase2">
         <methods>
+          <include name="setUp"/>
           <include name="validateTitles"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- TestNGLearning.TestCase2 -->
     </classes>
@@ -18,7 +21,9 @@
       <class name="TestNGLearning.TestCase3">
         <methods>
           <include name="doUserReg"/>
+          <include name="setUp"/>
           <include name="doLogin"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- TestNGLearning.TestCase3 -->
     </classes>
@@ -27,7 +32,9 @@
     <classes>
       <class name="TestNGLearning.TestFailure">
         <methods>
-          <include name="doLogin1"/>
+          <include name="doLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- TestNGLearning.TestFailure -->
     </classes>

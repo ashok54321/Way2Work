@@ -3,7 +3,7 @@ package TestNGLearning;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class TestCase3 {
+public class TestCase3 extends BaseTest {
 	
 	@Test(priority=1, groups= {"functional", "smoke"})
 	public void doUserReg()
