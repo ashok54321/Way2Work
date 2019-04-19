@@ -27,7 +27,7 @@ public class TestNGParameterizationExcel {
 		
 		if(excel==null) {
 			
-			excel=new ExcelReader("C:\\Users\\Ashok\\Desktop\\testngdata.xlsx");
+			excel=new ExcelReader("C:\\Users\\TB-DB\\Desktop\\testngdata.xlsx");
 		}
 		
 		String sheetName="loginTest";
@@ -50,8 +50,7 @@ public class TestNGParameterizationExcel {
 			
 			table.put(excel.getCellData(sheetName, colNum, 1), excel.getCellData(sheetName, colNum, rowNum));	
 			data[rowNum-2][0]=table;	
-				
-				
+					
 			}
 		}
 		
