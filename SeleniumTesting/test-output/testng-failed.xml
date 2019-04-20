@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ParallelTest.TestInvocation">
+      <class name="TestListenerOnFailure.LoginTest">
         <methods>
-          <include name="executeTest"/>
+          <include name="tearDown"/>
+          <include name="doLogin"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- ParallelTest.TestInvocation -->
+      </class> <!-- TestListenerOnFailure.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

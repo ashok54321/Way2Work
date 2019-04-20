@@ -1,42 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Functional Suite]" guice-stage="DEVELOPMENT">
-  <listeners>
-    <listener class-name="customListeners.Listeners"/>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-  </listeners>
-  <test thread-count="5" name="Validate Title Test(failed)">
+  <test thread-count="5" name="Login Test(failed)">
     <classes>
-      <class name="TestNGLearning.TestCase2">
+      <class name="TestListenerOnFailure.LoginTest">
         <methods>
-          <include name="setUp"/>
-          <include name="validateTitles"/>
           <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestNGLearning.TestCase2 -->
-    </classes>
-  </test> <!-- Validate Title Test(failed) -->
-  <test thread-count="5" name="Dependency Test(failed)">
-    <classes>
-      <class name="TestNGLearning.TestCase3">
-        <methods>
-          <include name="doUserReg"/>
-          <include name="setUp"/>
-          <include name="doLogin"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- TestNGLearning.TestCase3 -->
-    </classes>
-  </test> <!-- Dependency Test(failed) -->
-  <test thread-count="5" name="Failure Test(failed)">
-    <classes>
-      <class name="TestNGLearning.TestFailure">
-        <methods>
           <include name="doLogin"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
         </methods>
-      </class> <!-- TestNGLearning.TestFailure -->
+      </class> <!-- TestListenerOnFailure.LoginTest -->
     </classes>
-  </test> <!-- Failure Test(failed) -->
+  </test> <!-- Login Test(failed) -->
 </suite> <!-- Failed suite [Functional Suite] -->
